@@ -1285,6 +1285,11 @@
   resolved "https://registry.nlark.com/@humanwhocodes/object-schema/download/@humanwhocodes/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha1-h956+cIxgm/daKxyWPd8Qp4OX88=
 
+"@icons/material@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.npmjs.org/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"
+  integrity sha512-QPcGmICAPbGLGb6F/yNf/KzKqvFx8z5qx3D1yFqVAjoFmXK35EgyW+cJ57Te3CNsmzblwtzakLGFqHPqrfb4Tw==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/@istanbuljs/load-nyc-config/download/@istanbuljs/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -1860,6 +1865,13 @@
   resolved "https://registry.nlark.com/@types/minimatch/download/@types/minimatch-3.0.5.tgz?cache=0&sync_timestamp=1629708375365&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fminimatch%2Fdownload%2F%40types%2Fminimatch-3.0.5.tgz#1001cc5e6a3704b83c236027e77f2f58ea010f40"
   integrity sha1-EAHMXmo3BLg8I2An538vWOoBD0A=
 
+"@types/nanoid@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/@types/nanoid/-/nanoid-3.0.0.tgz#c757b20f343f3a1dd76e80a9a431b6290fc20f35"
+  integrity sha512-UXitWSmXCwhDmAKe7D3hNQtQaHeHt5L8LO1CB8GF8jlYVzOv5cBWDNqiJ+oPEWrWei3i3dkZtHY/bUtd0R/uOQ==
+  dependencies:
+    nanoid "*"
+
 "@types/node@*":
   version "16.9.3"
   resolved "https://registry.nlark.com/@types/node/download/@types/node-16.9.3.tgz?cache=0&sync_timestamp=1632042203361&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-16.9.3.tgz#92230abb80a66beb10236e78a51cd9e6396f4489"
@@ -1895,6 +1907,14 @@
   resolved "https://registry.nlark.com/@types/q/download/@types/q-1.5.5.tgz?cache=0&sync_timestamp=1629708761534&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fq%2Fdownload%2F%40types%2Fq-1.5.5.tgz#75a2a8e7d8ab4b230414505d92335d1dcb53a6df"
   integrity sha1-daKo59irSyMEFFBdkjNdHctTpt8=
 
+"@types/react-color@^3.0.5":
+  version "3.0.5"
+  resolved "https://registry.npmjs.org/@types/react-color/-/react-color-3.0.5.tgz#b8bdf8df7085bd1577658fb37d9a18d7ba3963bb"
+  integrity sha512-0VZy8Uq5x04cW5QFz24Qw8MMMlsMi8Bb+XG5h59ATqPnWVq6OheHtrwv5LeakdTRDaECQnExJNSFOsSe4Eo/zQ==
+  dependencies:
+    "@types/react" "*"
+    "@types/reactcss" "*"
+
 "@types/react-dom@^17.0.0":
   version "17.0.9"
   resolved "https://registry.nlark.com/@types/react-dom/download/@types/react-dom-17.0.9.tgz?cache=0&sync_timestamp=1629708935856&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Freact-dom%2Fdownload%2F%40types%2Freact-dom-17.0.9.tgz#441a981da9d7be117042e1a6fd3dac4b30f55add"
@@ -1910,6 +1930,13 @@
     "@types/prop-types" "*"
     "@types/scheduler" "*"
     csstype "^3.0.2"
+
+"@types/reactcss@*":
+  version "1.2.4"
+  resolved "https://registry.npmjs.org/@types/reactcss/-/reactcss-1.2.4.tgz#66c5f6afe123ffa1a50dbe724aa1fe68eb9fab00"
+  integrity sha512-1rhVqteMSD6KQjO+dPBObE1OkKadw00HVJkG5WCYsyvMwGgdTZ530wF7Bkrg/4TWxB2AtINIzFotjW51eViw+w==
+  dependencies:
+    "@types/react" "*"
 
 "@types/resolve@0.0.8":
   version "0.0.8"
@@ -7024,6 +7051,11 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash-es@^4.17.15:
+  version "4.17.21"
+  resolved "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/lodash._reinterpolate/download/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -7074,7 +7106,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.nlark.com/lodash.uniq/download/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-"lodash@>=3.5 <5", lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.5, lodash@^4.7.0:
+"lodash@>=3.5 <5", lodash@^4.0.1, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.5, lodash@^4.7.0:
   version "4.17.21"
   resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.21.tgz?cache=0&sync_timestamp=1618321064459&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
@@ -7157,6 +7189,11 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
+
+material-colors@^1.2.1:
+  version "1.2.6"
+  resolved "https://registry.npmjs.org/material-colors/-/material-colors-1.2.6.tgz#6d1958871126992ceecc72f4bcc4d8f010865f46"
+  integrity sha512-6qE4B9deFBIa9YSpOc9O0Sgc43zTeVYbgDT5veRKSlB2+ZuHNoVVxA1L/ckMUayV9Ay9y7Z/SZCLcGteW9i7bg==
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -7449,10 +7486,10 @@ nan@^2.12.1:
   resolved "https://registry.nlark.com/nan/download/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
   integrity sha1-PzSkc/8Y4VwbVia2KQO1rW5mX+4=
 
-nanoid@^3.1.23:
+nanoid@*, nanoid@^3.1.23, nanoid@^3.1.25:
   version "3.1.25"
-  resolved "https://registry.nlark.com/nanoid/download/nanoid-3.1.25.tgz?cache=0&sync_timestamp=1628771923493&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnanoid%2Fdownload%2Fnanoid-3.1.25.tgz#09ca32747c0e543f0e1814b7d3793477f9c8e152"
-  integrity sha1-CcoydHwOVD8OGBS303k0d/nI4VI=
+  resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.1.25.tgz#09ca32747c0e543f0e1814b7d3793477f9c8e152"
+  integrity sha512-rdwtIXaXCLFAQbnfqDRnI6jaRHp9fTcYBjtFKE8eezcZ7LuLjhUaQGNeMXf1HmRoCH32CLz6XwX0TtxEOS/A3Q==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -8919,7 +8956,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.npm.taobao.org/prop-types/download/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
@@ -9090,6 +9127,19 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
+react-color@^2.19.3:
+  version "2.19.3"
+  resolved "https://registry.npmjs.org/react-color/-/react-color-2.19.3.tgz#ec6c6b4568312a3c6a18420ab0472e146aa5683d"
+  integrity sha512-LEeGE/ZzNLIsFWa1TMe8y5VYqr7bibneWmvJwm1pCn/eNmrabWDh659JSPn9BuaMpEfU83WTOJfnCcjDZwNQTA==
+  dependencies:
+    "@icons/material" "^0.2.4"
+    lodash "^4.17.15"
+    lodash-es "^4.17.15"
+    material-colors "^1.2.1"
+    prop-types "^15.5.10"
+    reactcss "^1.2.0"
+    tinycolor2 "^1.4.1"
+
 react-dev-utils@^11.0.3:
   version "11.0.4"
   resolved "https://registry.nlark.com/react-dev-utils/download/react-dev-utils-11.0.4.tgz?cache=0&sync_timestamp=1630521198193&other_urls=https%3A%2F%2Fregistry.nlark.com%2Freact-dev-utils%2Fdownload%2Freact-dev-utils-11.0.4.tgz#a7ccb60257a1ca2e0efe7a83e38e6700d17aa37a"
@@ -9222,6 +9272,13 @@ react@^17.0.2:
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
+
+reactcss@^1.2.0:
+  version "1.2.3"
+  resolved "https://registry.npmjs.org/reactcss/-/reactcss-1.2.3.tgz#c00013875e557b1cf0dfd9a368a1c3dab3b548dd"
+  integrity sha512-KiwVUcFu1RErkI97ywr8nvx8dNOpT03rbnma0SSalTYjkrPYaEajR4a/MRt6DZ46K6arDRbWMNHF+xH7G7n/8A==
+  dependencies:
+    lodash "^4.0.1"
 
 read-pkg-up@^3.0.0:
   version "3.0.0"
@@ -10561,6 +10618,11 @@ timsort@^0.3.0:
   version "0.3.0"
   resolved "https://registry.npm.taobao.org/timsort/download/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
+
+tinycolor2@^1.4.1:
+  version "1.4.2"
+  resolved "https://registry.npmjs.org/tinycolor2/-/tinycolor2-1.4.2.tgz#3f6a4d1071ad07676d7fa472e1fac40a719d8803"
+  integrity sha512-vJhccZPs965sV/L2sU4oRQVAos0pQXwsvTLkWYdqJ+a8Q5kPFzJTuOFwy7UniPli44NKQGAglksjvOcpo95aZA==
 
 tmpl@1.0.x:
   version "1.0.5"
